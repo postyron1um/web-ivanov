@@ -1,0 +1,241 @@
+@import url(./../css/reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: #add8e6;
+}
+
+.none {
+  display: none !important;
+}
+
+.header {
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 40px;
+}
+.nav-logo {
+}
+.logo {
+  max-width: 100px;
+  background-color: #add8e6;
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 75px;
+}
+.nav__login {
+  display: flex;
+  column-gap: 20px;
+}
+
+.nav__list a {
+  position: relative;
+}
+.nav__list a.active::after,
+.nav__list a:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  display: block;
+  right: 10px;
+  /* width: 35px; */
+  height: 4px;
+  background-color: #20b2aa;
+  border-radius: 50px;
+}
+
+/* Book */
+
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-column {
+  max-width: 592px;
+}
+.book__title {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.book__text {
+  font-size: 17px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 15px;
+  text-align: center;
+}
+/* .book-centr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.registration-title {
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.registration {
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: #5f9ea0;
+  max-width: 300px;
+  min-height: 320px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.registration-list {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* width: 200px; */
+}
+input {
+  padding-left: 15px;
+}
+
+.registration-column {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.registration__bc {
+  background-color: #fff;
+}
+
+.margin {
+  margin-top: 25px;
+}
+
+.registration-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 20px;
+  color: #fff !important;
+
+  background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%);
+  border-radius: 27px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.registration__name {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.registration__surname {
+  margin-bottom: 20px;
+}
+.registration__email {
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.registration__password {
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.registration__repeat-password {
+  margin-bottom: 20px;
+}
+
+/* category */
+
+.box {
+  margin-top: 20px;
+  max-width: 400px;
+  max-height: 100%;
+  background-color: #66cdaa;
+}
+.category {
+  display: flex;
+
+  justify-content: center;
+}
+
+.category__column {
+}
+.category__column-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+}
+
+.category__title {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.box li {
+  margin-top: 23px;
+  margin-left: 23px;
+}
+
+/* Top */
+
+.top {
+}
+.top-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+}
+
+.rank {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.top-box__title {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.top-box__description {
+  margin: 20px;
+}
+
+.top-box {
+  max-width: 600px;
+  max-height: 100%;
+  background-color: rgba(20, 184, 126, 0.2);
+  margin-bottom: 20px;
+}
